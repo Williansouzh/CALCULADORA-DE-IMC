@@ -62,7 +62,8 @@ input {
     padding: 30px 0px;
     background-color: #FFBB00;
     height: 10vh;
-    width: 100%;
+    width: 100vw;
+    margin-bottom: 0px;
 }
 .footer-content {
     width: 80%;
@@ -74,4 +75,14 @@ input {
     width: 80%;
     margin: 0 auto;
     color: black;
+}
+
+@media (max-width: 400px) {
+    .calculator-bg {
+        width: 300px;
+    }
+    .footer-conatiner{
+        width: 100vw;
+        height: 20vh;
+    }
 }
